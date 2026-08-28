@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/solana-foundation/solana-go/compare/v1.23.0...v2.0.0) (2026-08-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* **zkencryption:** derived keys change from the SHA3-512 scheme. Reproduce pre-migration keys with the deprecated *Legacy functions.
+
+### Features
+
+* add confidential transfer proof generation API ([#484](https://github.com/solana-foundation/solana-go/issues/484)) ([547b8e9](https://github.com/solana-foundation/solana-go/commit/547b8e9c2669921f7e7cee6be27674719e1487c2))
+
+
+### Bug Fixes
+
+* **zkencryption:** align key derivation with solana-conf-bal/v1 ([#485](https://github.com/solana-foundation/solana-go/issues/485)) ([7015419](https://github.com/solana-foundation/solana-go/commit/701541987754b9b540bca87bf3134c1af6e1fabf))
+
 ## [1.23.0](https://github.com/solana-foundation/solana-go/compare/v1.22.0...v1.23.0) (2026-08-26)
 
 
